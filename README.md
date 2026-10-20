@@ -29,9 +29,9 @@ Este repositório reúne o resumo dos quatro projetos integradores (API) desenvo
 
 **Minha contribuição:** Desenvolvedor (sem ser PO ou Scrum Master), com foco na interação com o usuário. Criei o menu do sistema (busca de professor por login e senha, consulta de turmas e alunos, notas, pesos e médias) sobre a planilha de dados e escrevi funções do sistema de notas (criação das abas de notas e de turmas, listagem de turmas). Também ajudei a organizar as tarefas da equipe.
 
-**Aprendizados:** Lógica de programação em Python (funções, laços, condicionais, entrada e saída), leitura e escrita de planilhas com openpyxl, organização do código em menu e primeiro uso de Git e GitHub em equipe.
+**Aprendizados:** Lógica de programação em Python (funções, laços, condicionais, entrada e saída, tratamento de login ou aluno não encontrado); leitura e escrita de planilhas com openpyxl como base de dados; regras de negócio como cadastro de turmas, notas, pesos e médias; organização do programa em menu com funções separadas; trabalho em equipe de 8 pessoas com sprints, user stories, Trello e Teams; e primeiro uso de Git e GitHub, com integração da parte de cada integrante.
 
-**Evidências:** commits [770d0d7, d1ff11e, 1a766fc](https://github.com/Porygon-Users/API-Porygon/commit/1a766fc) (menu, 30/10/2023) e [675ddf0](https://github.com/Porygon-Users/API-Porygon/commit/675ddf0) (sistema de notas, 09/12/2023). Parte dos commits da equipe foi feita por uma conta compartilhada e não é atribuída individualmente.
+**Evidências:** commits [1a766fc](https://github.com/Porygon-Users/API-Porygon/commit/1a766fc) (menu) e [675ddf0](https://github.com/Porygon-Users/API-Porygon/commit/675ddf0) (sistema de notas).
 ---
 
 ## 2º semestre: Leitor-de-clima (2024-1)
@@ -44,9 +44,9 @@ Este repositório reúne o resumo dos quatro projetos integradores (API) desenvo
 
 **Minha contribuição:** Desenvolvedor (sem ser PO ou Scrum Master). Comecei no front-end em JavaFX e, da metade para o final, foquei no back-end. Fiz as telas de parâmetros suspeitos, de cidade e de estação (FXML e controladores) e reescrevi a classe `DbUtils`, que concentra o acesso ao MySQL.
 
-**Aprendizados:** Interfaces em JavaFX (FXML e controladores), ligação da interface com o MySQL por uma classe utilitária, branches por sprint e merges, e visão do fluxo completo da tela ao banco.
+**Aprendizados:** Interfaces em JavaFX, separando telas (FXML) e lógica (controladores); tratamento de eventos e de mensagens de erro ao usuário; ligação com o MySQL por classe utilitária, consultas e inserções a partir do Java e redução de código repetido; caminho dos dados validados, como valores suspeitos, do CSV até a tela e o relatório; branch por sprint, merges, conflitos e revisão de código; e visão do fluxo completo, da tela ao banco.
 
-**Evidências:** 8 commits entre 23/05 e 21/06/2024: [e19afbd](https://github.com/VCCorpTeam/Leitor-de-clima/commit/e19afbd) (tela de parâmetros), ffd8800 e c42da2b (parâmetros suspeitos), 83e66dd e 22a5133 (telas de cidade e estação) e [c2b51ca](https://github.com/VCCorpTeam/Leitor-de-clima/commit/c2b51ca) (`DbUtils.java`, +283/−474 linhas).
+**Evidências:** [e19afbd](https://github.com/VCCorpTeam/Leitor-de-clima/commit/e19afbd) (parâmetros), 83e66dd (cidade e estação) e [c2b51ca](https://github.com/VCCorpTeam/Leitor-de-clima/commit/c2b51ca) (DbUtils).
 ---
 
 ## 3º semestre: FATEC-API-3-SEMESTRE (2024-2)
@@ -61,7 +61,7 @@ Este repositório reúne o resumo dos quatro projetos integradores (API) desenvo
 
 **Aprendizados:** Vue e TypeScript no front-end, back-end em Java, comunicação por API REST e CORS, Kanban, branches por história de usuário, pull requests e padronização visual.
 
-**Evidências:** 23 commits entre 25/09 e 01/12/2024: efcfd5e e [8350612](https://github.com/c137santos/FATEC-API-3-SEMESTRE/commit/8350612) (edição de regionalismo, PR #59), 39a372a e 738cc63 (back-end e conclusão da tela) e [9258019](https://github.com/c137santos/FATEC-API-3-SEMESTRE/commit/9258019) (CSS, PR #110).
+**Evidências:** [8350612](https://github.com/c137santos/FATEC-API-3-SEMESTRE/commit/8350612) (edição de regionalismo) e [9258019](https://github.com/c137santos/FATEC-API-3-SEMESTRE/commit/9258019) (CSS).
 ---
 
 ## 4º semestre: CaramelStray-Api-4Semestre (2026-1), API de destaque
@@ -86,7 +86,7 @@ O projeto adotou DoR e DoD por sprint, burndown, padrão de branches e commits, 
 
 **Aprendizados:** Estudo de Vue (componentes, rotas, estado e consumo de API), fluxo de feature/fix com pull requests e resolução de conflitos, API REST protegida por JWT, bibliotecas de calendário e mapa e integração entre front-end e back-end. Na Feira de Soluções, apresentei o produto aos clientes e treinei formas de explicá-lo a quem não é da área técnica.
 
-**Evidências:** 13 commits (cerca de 3.570 linhas adicionadas) entre 26/04 e 29/05/2026: [c6735dd](https://github.com/CaramelStray/CaramelStray-Api-4Semestre/commit/c6735dd) (relatório), e67a9f1 (ordens do técnico), ae0b0b3 e c196215 (dashboard, SCRUM-222), 5e2fd8a (calendário), 8794a40 (embarcações), 5132c2d (viagem) e [f441e6b](https://github.com/CaramelStray/CaramelStray-Api-4Semestre/commit/f441e6b) (mapa, SCRUM-255).
+**Evidências:** [c6735dd](https://github.com/CaramelStray/CaramelStray-Api-4Semestre/commit/c6735dd) (relatório), c196215 (dashboard) e [f441e6b](https://github.com/CaramelStray/CaramelStray-Api-4Semestre/commit/f441e6b) (mapa).
 ---
 
 ## Autor
