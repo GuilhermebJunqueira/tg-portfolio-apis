@@ -1,6 +1,6 @@
 # Portfólio de Aprendizagem de Projetos Integrados (API)
 
-Trabalho de Graduação (TG), modelo Portfólio, do curso de Banco de Dados da Fatec São José dos Campos – Prof. Jessen Vidal.
+Trabalho de Graduação (TG), modelo Portfólio, do curso de Banco de Dados da Fatec Professor Jessen Vidal (São José dos Campos).
 
 Este repositório reúne o resumo dos quatro projetos integradores (API) desenvolvidos do 1º ao 4º semestre. A **API de destaque** é a do 4º semestre.
 
@@ -27,10 +27,11 @@ Este repositório reúne o resumo dos quatro projetos integradores (API) desenvo
 
 **Processo.** Foram 4 sprints, de 04/09/2023 a 26/11/2023, com 9 user stories concluídas e 205 commits. A equipe Porygon tinha 8 integrantes: Scrum Master, Product Owner e 6 desenvolvedores. Ferramentas: Python, Git/GitHub, VS Code, Trello, Canva, Excel e Teams.
 
-**Minha contribuição:** Atuei como desenvolvedor da equipe, sem assumir os papéis de Product Owner ou de Scrum Master, com contribuições gerais de desenvolvimento e ajuda na organização das tarefas.
+**Minha contribuição:** Desenvolvedor (sem ser PO ou Scrum Master), com foco na interação com o usuário. Criei o menu do sistema (busca de professor por login e senha, consulta de turmas e alunos, notas, pesos e médias) sobre a planilha de dados e escrevi funções do sistema de notas (criação das abas de notas e de turmas, listagem de turmas). Também ajudei a organizar as tarefas da equipe.
 
-**Aprendizados:** Trabalho em equipe com Scrum, Git e GitHub, divisão de tarefas e integração do código.
+**Aprendizados:** Lógica de programação em Python (funções, laços, condicionais, entrada e saída), leitura e escrita de planilhas com openpyxl, organização do código em menu e primeiro uso de Git e GitHub em equipe.
 
+**Evidências:** commits [770d0d7, d1ff11e, 1a766fc](https://github.com/Porygon-Users/API-Porygon/commit/1a766fc) (menu, 30/10/2023) e [675ddf0](https://github.com/Porygon-Users/API-Porygon/commit/675ddf0) (sistema de notas, 09/12/2023). Parte dos commits da equipe foi feita por uma conta compartilhada e não é atribuída individualmente.
 ---
 
 ## 2º semestre: Leitor-de-clima (2024-1)
@@ -41,10 +42,11 @@ Este repositório reúne o resumo dos quatro projetos integradores (API) desenvo
 
 **Processo.** Foram 4 sprints, de 25/03/2024 a 16/06/2024, e 244 commits. A equipe VCCorp (Vira-lata Caramelo Corp) tinha 8 integrantes. Ferramentas: Java, JavaFX, MySQL, IntelliJ, GitHub e Discord.
 
-**Minha contribuição:** Atuei como desenvolvedor da equipe, sem assumir os papéis de Product Owner ou de Scrum Master, com contribuições gerais de desenvolvimento e ajuda na organização das tarefas.
+**Minha contribuição:** Desenvolvedor (sem ser PO ou Scrum Master). Comecei no front-end em JavaFX e, da metade para o final, foquei no back-end. Fiz as telas de parâmetros suspeitos, de cidade e de estação (FXML e controladores) e reescrevi a classe `DbUtils`, que concentra o acesso ao MySQL.
 
-**Aprendizados:** Trabalho em equipe com Scrum, Git e GitHub, divisão de tarefas e integração do código.
+**Aprendizados:** Interfaces em JavaFX (FXML e controladores), ligação da interface com o MySQL por uma classe utilitária, branches por sprint e merges, e visão do fluxo completo da tela ao banco.
 
+**Evidências:** 8 commits entre 23/05 e 21/06/2024: [e19afbd](https://github.com/VCCorpTeam/Leitor-de-clima/commit/e19afbd) (tela de parâmetros), ffd8800 e c42da2b (parâmetros suspeitos), 83e66dd e 22a5133 (telas de cidade e estação) e [c2b51ca](https://github.com/VCCorpTeam/Leitor-de-clima/commit/c2b51ca) (`DbUtils.java`, +283/−474 linhas).
 ---
 
 ## 3º semestre: FATEC-API-3-SEMESTRE (2024-2)
@@ -55,10 +57,11 @@ Este repositório reúne o resumo dos quatro projetos integradores (API) desenvo
 
 **Processo.** Foram 4 sprints, de 09/09/2024 a 01/12/2024, com Feira de Soluções em 12/12/2024. As 14 user stories foram realizadas, com 242 commits. A equipe Cerberus tinha 7 integrantes. O projeto usou Kanban no GitHub Projects, burndown e commits no padrão gitmoji.
 
-**Minha contribuição:** Atuei como desenvolvedor da equipe, sem assumir os papéis de Product Owner ou de Scrum Master, com contribuições gerais de desenvolvimento e ajuda na organização das tarefas.
+**Minha contribuição:** Desenvolvedor (sem ser PO ou Scrum Master). Tarefas de front-end em Vue e o back-end em Java correspondente. Implementei a edição de regionalismos (US06: `RegionalismoView.vue`, modal de edição, `RegionalismoController`, repositório e entidade), os modais de edição de tag, portal e API, a configuração de CORS e a padronização do CSS (cerca de 1.450 linhas).
 
-**Aprendizados:** Trabalho em equipe com Scrum, Git e GitHub, divisão de tarefas e integração do código.
+**Aprendizados:** Vue e TypeScript no front-end, back-end em Java, comunicação por API REST e CORS, Kanban, branches por história de usuário, pull requests e padronização visual.
 
+**Evidências:** 23 commits entre 25/09 e 01/12/2024: efcfd5e e [8350612](https://github.com/c137santos/FATEC-API-3-SEMESTRE/commit/8350612) (edição de regionalismo, PR #59), 39a372a e 738cc63 (back-end e conclusão da tela) e [9258019](https://github.com/c137santos/FATEC-API-3-SEMESTRE/commit/9258019) (CSS, PR #110).
 ---
 
 ## 4º semestre: CaramelStray-Api-4Semestre (2026-1), API de destaque
@@ -79,10 +82,11 @@ O backlog tem 19 user stories priorizadas e estimadas, distribuídas em 3 sprint
 
 O projeto adotou DoR e DoD por sprint, burndown, padrão de branches e commits, manual do usuário e vídeos de acompanhamento. O repositório tem 465 commits. A equipe tem 8 integrantes (PO, Scrum Master e 6 desenvolvedores), e a Feira de Soluções foi em 25/06/2026.
 
-**Minha contribuição:** Desenvolvedor no front-end em Vue: relatório de manutenção, lista de ordens do técnico, cards do dashboard, modal do calendário, lista de embarcações atracadas, modal de preparação de viagem e atualização do mapa (13 commits, de 26/04 a 29/05/2026).
+**Minha contribuição:** Desenvolvedor no front-end em Vue, com algumas tarefas que também envolveram o back-end: relatório de manutenção, lista de ordens do técnico, cards do dashboard, modal do calendário, embarcações atracadas, preparação de viagem e polling com status no mapa; ajustes de rotas e da barra lateral e pequenas mudanças em DTOs, repositório de ativos e serviço de técnicos.
 
-**Resultados e aprendizados:** Todas as histórias das 3 sprints foram entregues, e o produto foi apresentado aos clientes na Feira de Soluções. Aprendi o fluxo de branches e pull requests, o consumo de API REST autenticada e interfaces com calendário, gráficos e mapas.
+**Aprendizados:** Estudo de Vue (componentes, rotas, estado e consumo de API), fluxo de feature/fix com pull requests e resolução de conflitos, API REST protegida por JWT, bibliotecas de calendário e mapa e integração entre front-end e back-end. Na Feira de Soluções, apresentei o produto aos clientes e treinei formas de explicá-lo a quem não é da área técnica.
 
+**Evidências:** 13 commits (cerca de 3.570 linhas adicionadas) entre 26/04 e 29/05/2026: [c6735dd](https://github.com/CaramelStray/CaramelStray-Api-4Semestre/commit/c6735dd) (relatório), e67a9f1 (ordens do técnico), ae0b0b3 e c196215 (dashboard, SCRUM-222), 5e2fd8a (calendário), 8794a40 (embarcações), 5132c2d (viagem) e [f441e6b](https://github.com/CaramelStray/CaramelStray-Api-4Semestre/commit/f441e6b) (mapa, SCRUM-255).
 ---
 
 ## Autor
